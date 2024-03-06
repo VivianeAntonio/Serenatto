@@ -40,7 +40,7 @@
                 <a class="nav-link" href="#">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#contato">Contato</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -133,7 +133,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-2">
             <img src="assets/produtos-cafe-especial.png" class="card-img-top" alt="Xícara de café com leite.">
             <div class="card-body text-center">
               <h3 class="card-text text-center fw-bold text-nowrap">Cafés Especiais</h3>
@@ -142,7 +142,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-          <div class="card border-0  mx-auto btn" style="width: 18rem;">
+          <div class="card border-0  mx-auto btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-3">
             <img src="assets/produtos-vitaminas.png" class="card-img-top" alt="Copos de vitaminas de frutas.">
             <div class="card-body text-center">
               <h3 class="card-text text-center fw-bold text-nowrap">Smoothies e Vitaminas</h3>
@@ -151,7 +151,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-4">
             <img src="assets/produtos-paes.png" class="card-img-top" alt="Cesta com vários tipos de pães.">
             <div class="card-body text-center">
               <h3 class="card-text text-center fw-bold text-nowrap">Pães e Focaccias</h3>
@@ -160,7 +160,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-5">
             <img src="assets/produtos-doces.png" class="card-img-top" alt="Bolo com chantili e frutas vermelhas.">
             <div class="card-body text-center">
               <h3 class="card-text text-center fw-bold text-nowrap">Doces</h3>
@@ -169,7 +169,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-          <div class="card border-0 mx-auto btn" style="width: 18rem;">
+          <div class="card border-0 mx-auto btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-6">
             <img src="assets/produtos-salgados.png" class="card-img-top" alt="Torta salgada fatiada.">
             <div class="card-body text-center">
               <h3 class="card-text text-center fw-bold text-nowrap">Salgados</h3>
@@ -183,6 +183,17 @@
     <section class="banners banner-3">
     </section>
   </main>
+
+  <section class="py-4 container">
+    <div class="border border-2 rounded p-3">
+      <h3 class="fw-bold p-3">Entre em contato!</h3>
+      <form id="contato">
+        
+      </form>
+    </div>
+  </section>
+
+
 
   <!-- canvas 1  -->
 
@@ -327,6 +338,132 @@
         </div>
         <div class="modal-body">
           <img src="assets/produtos-cafe-tradicional.png" class="w-100" alt="Xícara de café preto.">
+          <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+            Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
+          <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com
+            notas
+            de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. Já o
+            "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar
+            janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2-->
+  <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Cafés Especiais</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/produtos-cafe-especial.png" class="w-100" alt="Xícara de café com leite.">
+          <p>Somos conhecidos também por nossos cafés especiais, que são cuidadosamente preparados com grãos selecionados 
+            de alta qualidade e técnicas de preparo precisas.</p>
+          <p>Entre as opções de cafés especiais do Café & Bistrô Serenatto, destacamos o café aeropress, que é preparado com 
+            uma técnica de imersão e pressão, resultando em uma bebida de sabor intenso e aroma acentuado. Outra opção popular 
+            é o café Hario V60, que é preparado com um filtro de papel em formato de cone e resulta em uma bebida limpa e suave, 
+            ressaltando as notas sensoriais dos grãos. Além disso, oferecemos uma variedade de bebidas geladas, como o café gelado, 
+            que é preparado com grãos torrados escuros e servido com gelo e leite, resultando em uma bebida refrescante e saborosa.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar
+            janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3-->
+  <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Smoothies e Vitaminas</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/produtos-vitaminas.png" class="w-100" alt="Copos de vitaminas de frutas.">
+          <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+            Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
+          <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com
+            notas
+            de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. Já o
+            "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar
+            janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4-->
+  <div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pães e Focaccias</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/produtos-paes.png" class="w-100" alt="Cesta com vários tipos de pães.">
+          <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+            Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
+          <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com
+            notas
+            de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. Já o
+            "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar
+            janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5-->
+  <div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Doces</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/produtos-doces.png" class="w-100" alt="Bolo com chantili e frutas vermelhas.">
+          <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+            Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
+          <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com
+            notas
+            de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. Já o
+            "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar
+            janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6-->
+  <div class="modal fade" id="modal-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Salgados</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/produtos-salgados.png" class="w-100" alt="Torta salgada fatiada.">
           <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
             Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
           <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com
